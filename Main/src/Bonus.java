@@ -5,10 +5,10 @@ class Bonus {
         for(int a : arr){
             sum+=a;
         }
-        float [] koef= new float[arr.length];
-        float sumKoef=0;
+        double [] koef= new double[arr.length];
+        double sumKoef=0;
         for (int i=0;i< arr.length;i++){
-            koef[i]=(float)sum/arr[i];
+            koef[i]=(double)sum/arr[i];
             sumKoef+=koef[i];
         }
         for (int i=0;i< arr.length;i++){
