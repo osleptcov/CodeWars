@@ -32,13 +32,13 @@ public class Main {
         System.out.println("Hello world!!!");
 
         System.out.println(bmi(80, 1.80));
-        long [] result = Bonus.bonus(new int[] {22, 3, 15}, 18228);
-        for (int i=0;i< result.length;i++){
-            System.out.println(result[i]);
+        //long [] result = Bonus.bonus(new int[] {22, 3, 15}, 18228);
+       // for (int i=0;i< result.length;i++){
+         //   System.out.println(result[i]);
         }
     }
 
 
 
 
-}
+
