@@ -36,20 +36,10 @@ public class Main {
         System.out.println("Hello world!!!");
 
         System.out.println(bmi(80, 1.80));
-//        long [] result = Bonus.bonus(new int[] {22, 3, 15}, 18228);
-//        for (int i=0;i< result.length;i++){
-//            System.out.println(result[i]);
-        //}
-
-        int v[] =  {9,2,0,9,8,8,3,6,7,5};
-        String number = Arrays.toString(v).replaceAll(", |\\[|\\]", "");
-        System.out.println(number);
-        System.out.printf("(%s) %s-%s", number.substring(0, 3), number.substring(3, 6),number.substring(6, 10));
-
 
     }
 
 
 
 
-}
+
