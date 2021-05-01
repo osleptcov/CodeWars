@@ -35,6 +35,8 @@ public class Main {
         //long [] result = Bonus.bonus(new int[] {22, 3, 15}, 18228);
        // for (int i=0;i< result.length;i++){
          //   System.out.println(result[i]);
+
+
         }
     }
 
