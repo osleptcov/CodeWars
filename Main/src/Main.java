@@ -1,6 +1,10 @@
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.function.DoubleToIntFunction;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -35,6 +39,7 @@ public class Main {
         //long [] result = Bonus.bonus(new int[] {22, 3, 15}, 18228);
        // for (int i=0;i< result.length;i++){
          //   System.out.println(result[i]);
+
         }
     }
 
