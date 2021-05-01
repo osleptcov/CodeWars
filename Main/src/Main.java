@@ -9,27 +9,22 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static String bmi(double weight, double height) {
-        double result = weight/Math.pow(height,2);
-        String resultMessage="";
+        double result = weight / Math.pow(height, 2);
+        String resultMessage = "";
 
-        if ( result <=18.5){
-            resultMessage= "Underweight";
-        }
-        else if (result <=25.0){
-            resultMessage= "Normal";
-        }
-        else if (result <=30.0){
-            resultMessage= "Overweight";
-        }
-        else if (result >30.0){
-            resultMessage= "Obese";
+        if (result <= 18.5) {
+            resultMessage = "Underweight";
+        } else if (result <= 25.0) {
+            resultMessage = "Normal";
+        } else if (result <= 30.0) {
+            resultMessage = "Overweight";
+        } else if (result > 30.0) {
+            resultMessage = "Obese";
         }
         return resultMessage;
 
 
     }
-
-
 
 
     public static void main(String[] args) {
@@ -39,7 +34,7 @@ public class Main {
 
     }
 
-
+}
 
 
 
