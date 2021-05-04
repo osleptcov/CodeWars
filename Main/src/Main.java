@@ -1,10 +1,10 @@
 import javax.swing.text.MaskFormatter;
 import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.function.DoubleToIntFunction;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -31,6 +31,7 @@ public class Main {
         System.out.println("Hello world!!!");
 
         System.out.println(bmi(80, 1.80));
+
 
     }
 
