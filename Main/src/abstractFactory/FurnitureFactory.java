@@ -1,5 +1,7 @@
+package abstractFactory;
+
 public interface FurnitureFactory {
     Chair getChair();
-    coffeeTable getCofeeTable();
+    CoffeeTable getCofeeTable();
     Sofa getSofa();
 }

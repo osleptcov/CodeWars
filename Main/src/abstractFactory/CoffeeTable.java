@@ -1,3 +1,5 @@
-public interface coffeeTable {
+package abstractFactory;
+
+public interface CoffeeTable {
     void putOn();
 }
