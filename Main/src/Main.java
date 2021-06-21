@@ -12,30 +12,15 @@ public class Main {
 
     public static void main(String[] args) {
         String type ="sofa";
-        FurnitureFactory furnitureFactory = createFurnitureByType(type);
-        Furniture furniture = furnitureFactory.createFurniture();
+        FurnitureFactory furnitureFactory =  new FurnitureFactory();
+        Furniture furniture = furnitureFactory.createFurnitureByType(type);
 
         furniture.give();
         furniture.sell();
 
 
     }
-     static FurnitureFactory createFurnitureByType(String type){
 
-        if (type.equalsIgnoreCase("chair")) {
-            return new ChairFurnitureFactory();
-        }
-        else if(type.equalsIgnoreCase("table")){
-            return  new TableFurnitureFactory();
-        }
-        else if (type.equalsIgnoreCase("sofa")){
-            return  new SofaFurnitureFactory();
-        }
-        else{
-            throw new RuntimeException(type+" is unknown furniture type");
-        }
-
-    }
 
 }
 
